@@ -32,10 +32,9 @@
               "RelativeDocumentMoniker": "Data\\MedicineDto.cs",
               "ToolTip": "C:\\Users\\DNS\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\trpo\\trpo_6\\Data\\MedicineDto.cs",
               "RelativeToolTip": "Data\\MedicineDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-14T16:34:16.208Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-14T16:34:16.208Z"
             },
             {
               "$type": "Document",
@@ -47,8 +46,7 @@
               "RelativeToolTip": "Models\\Medicine.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-14T16:03:43.022Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-14T16:03:43.022Z"
             },
             {
               "$type": "Document",
@@ -56,9 +54,9 @@
               "Title": "MedicineController.cs",
               "DocumentMoniker": "C:\\Users\\DNS\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\trpo\\trpo_6\\Controllers\\MedicineController.cs",
               "RelativeDocumentMoniker": "Controllers\\MedicineController.cs",
-              "ToolTip": "C:\\Users\\DNS\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\trpo\\trpo_6\\Controllers\\MedicineController.cs*",
-              "RelativeToolTip": "Controllers\\MedicineController.cs*",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAYwCUAAAAcAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\DNS\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\trpo\\trpo_6\\Controllers\\MedicineController.cs",
+              "RelativeToolTip": "Controllers\\MedicineController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAIwGcAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-08T08:20:53.36Z",
               "EditorCaption": ""

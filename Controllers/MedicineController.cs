@@ -8,12 +8,7 @@ namespace trpo_6.Controllers
     [Route("api/v1/[controller]")]
     public class MedicineController : Controller
     {
-        private readonly WebApiDatabaseContext _context;
-
-        public MedicineController(WebApiDatabaseContext context)
-        {
-            _context = context;
-        }
+        private readonly WebApiDatabaseContext _context = new();
 
         [HttpGet]
         public IActionResult GetAll([FromQuery] string? manufacturer, [FromQuery] bool? available)
@@ -76,9 +71,6 @@ namespace trpo_6.Controllers
             if (medicine == null)
                 return NotFound("Препарат не найден");
 
-            if (newMedicine.Id != id)
-                return BadRequest("Id должно совпадать с поиском");
-
             medicine.Name = newMedicine.Name;
             medicine.Manufacturer = newMedicine.Manufacturer;
             medicine.Price = newMedicine.Price;
@@ -102,9 +94,6 @@ namespace trpo_6.Controllers
 
             if (medicine == null)
                 return NotFound("Препарат не найден");
-
-            if (newMedicine.Id != id)
-                return BadRequest("Id должно совпадать с поиском");
 
             if (newMedicine.Name is not null) medicine.Name = newMedicine.Name;
             if (newMedicine.Manufacturer is not null) medicine.Manufacturer = newMedicine.Manufacturer;
